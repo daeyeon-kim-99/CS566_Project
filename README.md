@@ -77,8 +77,7 @@ Generate them with:
 
 ## **5. Choose Dataset and Model in `train.py`**
 
-You must manually update `train.py` depending on which dataset you want to use.
-In line 27.
+You must manually update `train.py` depending on which dataset you want to use(line 27).
 
 ### **A) Choose Dataset**
 

@@ -95,17 +95,18 @@ TRAIN_ANN = 'data/coco_lower_full/person_keypoints_train2017_lower_full.json'
 
 ### **B) Select Model Architecture**
 
-Inside the model-building section(line 362):
+Inside the model-building section(line 362), you can choose model:
 
 ```python
 # Options:
 # PoseResNet18
-# PoseResNet18FPN
-# LowerBodyPoseNet (custom model)
-
 model = PoseResNet18(...)
-# model = PoseResNet18FPN(...)
-# model = LowerBodyPoseNet(...)
+
+# PoseResNet18FPN
+model = PoseResNet18FPN(...)
+
+# LowerBodyPoseNet (custom model)
+model = LowerBodyPoseNet(...)
 ```
 
 ---

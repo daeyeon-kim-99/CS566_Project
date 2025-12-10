@@ -85,10 +85,10 @@ You must manually update `train.py` depending on which dataset you want to use(l
 TRAIN_ANN = 'data/coco/annotations/annotations/person_keypoints_train2017.json'
 
 # Use 20K subset:
-# TRAIN_ANN = 'data/coco_mini/person_keypoints_train2017_20k.json'
+TRAIN_ANN = 'data/coco_mini/person_keypoints_train2017_20k.json'
 
 # Use lower-body full-visible dataset:
-# TRAIN_ANN = 'data/coco_lower_full/person_keypoints_train2017_lower_full.json'
+TRAIN_ANN = 'data/coco_lower_full/person_keypoints_train2017_lower_full.json'
 ```
 
 ---
@@ -113,7 +113,7 @@ model = PoseResNet18(...)
 ### **C) Adjust Hyperparameters**
 
 ```python
-At line 48-50
+#At line 48-50
 NUM_EPOCHS = 60     # You may increase to 80 or 120
 LR = ...            # Learning rate
 ```

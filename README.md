@@ -84,7 +84,7 @@ In line 27.
 
 ```python
 # Default full COCO dataset:
-TRAIN_ANN = 'data/coco/annotations/person_keypoints_train2017.json'
+TRAIN_ANN = 'data/coco/annotations/annotations/person_keypoints_train2017.json'
 
 # Use 20K subset:
 # TRAIN_ANN = 'data/coco_mini/person_keypoints_train2017_20k.json'

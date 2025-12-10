@@ -1,8 +1,4 @@
-# CS566_Project
-
----
-
-# 🚀 Run on Google Colab
+# 🚀 How to run on Google Colab
 
 This section explains how to run the full training pipeline on **Google Colab**, including environment setup, dataset download, subset generation, and model training.
 

@@ -128,7 +128,7 @@ Once everything is configured, run:
 !python train.py
 ```
 
-**Explanation:**
+**Let's Train!**
 
 * Starts training using your selected model and dataset
 * Saves checkpoints and logs to `out_lower/` or the specified output directory

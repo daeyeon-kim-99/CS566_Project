@@ -1,6 +1,7 @@
 # 🚀 How to run on Google Colab
 
 This section explains how to run the full training pipeline on **Google Colab**, including environment setup, dataset download, subset generation, and model training.
+You should change runtime with A100 gpu or L4 gpu or T4 gpu in Colab.
 
 ---
 

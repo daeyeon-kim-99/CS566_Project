@@ -25,7 +25,7 @@ Clone the project and add it to the Python path so Colab can import project modu
 ```bash
 !git clone https://github.com/daeyeon-kim-99/CS566_Project.git
 
-import sys
+import sys, torch, torch.backends.cudnn as cudnn
 sys.path.append('/content/CS566_Project')
 ```
 
@@ -43,8 +43,8 @@ This project requires the **COCO 2017 train and val sets** for keypoint annotati
 !wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
 
 %cd /content/CS566_Project/data/coco/images
-!wget http://images.cococataset.org/zips/train2017.zip
-!wget http://images.coco dataset.org/zips/val2017.zip
+!wget http://images.cocodataset.org/zips/train2017.zip
+!wget http://images.cocodataset.org/zips/val2017.zip
 
 !unzip train2017.zip
 !unzip val2017.zip

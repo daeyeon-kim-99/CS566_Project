@@ -113,6 +113,7 @@ model = PoseResNet18(...)
 ### **C) Adjust Hyperparameters**
 
 ```python
+At line 48-50
 NUM_EPOCHS = 60     # You may increase to 80 or 120
 LR = ...            # Learning rate
 ```

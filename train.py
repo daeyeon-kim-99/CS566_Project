@@ -354,8 +354,9 @@ def decode_heatmaps(hm, beta=100.0, stride=4.0):
 
 
 # Make model and loss
+from lib.models.pose_resnet18 import PoseResNet18
+from lib.models.pose_resnet18_fpn import PoseResNet18FPN
 from lib.models.pose_lower_cnn import LowerBodyPoseNet
-
 
 def build_model():
     return LowerBodyPoseNet(num_joints=NUM_JOINTS)
